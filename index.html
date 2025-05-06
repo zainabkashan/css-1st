@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook login page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color:rgb(241, 241, 241) ;
+        }
+        div{
+            display: inline-block;
+         vertical-align: middle;
+        }
+    #fb{
+        width:30%;
+        margin-top: 12%;
+        margin-left: 5%;
+       }
+       #frm{
+        width:15%;
+        margin-top:12%;
+        padding: 1% 1%;
+        background-color: white;
+        margin-left: 20%;
+        border: 1em solid transparent;
+        border-radius: 3%;
+       }
+       h1{
+        color: blue;
+        font-family: "Roboto", sans-serif;
+font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+    font-size: 300%;
+       }
+         p{
+            font-family: "Roboto", sans-serif;
+font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+    font-size: 150%;
+         }
+input{
+    width: 100%;
+    height: 2em;
+
+}
+#pw{
+    margin-top: 5%;
+}
+button{
+    margin-top:5%;
+    margin-bottom: 5%;
+    border: 0px;
+  
+}
+#log{
+    margin-bottom: 5%;
+    height: 2.5em;
+    width:100% ;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(50, 50, 255);
+    border-radius: 0.4em;
+}
+#link{
+    text-align:center;
+    text-decoration: none;
+    padding-left: 20%;
+    color: blue;
+}
+#new{
+    height: 3em;
+    margin-left: 15%;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(68, 170, 70);
+    border-radius: 0.4em;
+}
+.lnk{
+    vertical-align: top;
+}
+    </style>
+</head>
+<body>
+    <a href="form.html" class="lnk">FORM</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="../chessboard/index.html" class="lnk">CHESS</a>
+    <div id="fb">
+        <h1>facebook</h1>
+        <p>Connect with friends and the world around you on facebook</p>
+    </div>
+    <div id="frm">
+ <form action="">
+    <input type="text" placeholder="Email or phone number" id="eml"> <br>
+    <input type="password" placeholder="Password" id="pw"> <br>
+    <button id="log">Login</button> <br>
+    <a href="" id="link">Forgot Password?</a> <br> <hr>
+    <button id="new">Create new account</button>
+ </form>
+    </div>
+</body>
+</html>

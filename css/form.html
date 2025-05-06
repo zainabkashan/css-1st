@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS form</title>
+    <style>
+     body{
+        background-color: rgba(0, 0, 0, 0.8);
+     }
+     input{
+     background: transparent;
+     border: 0px;
+     border-bottom: white 1px solid;
+    width: 100%;
+    color: white;
+    margin-bottom: 10%;
+     }
+     form{
+        margin: 10% 40%;
+     }
+     label{
+        color: white;
+        /* border: 1px solid red; */
+     }
+     #submit{
+       padding: 3%;
+       width: 30%;
+       margin-left:18%;
+       margin-top: 15%;
+       background-color: blue;
+       border-style: none;
+       color: white;
+     }
+     #cancel{
+        padding: 3%;
+        width: 30%;
+        margin-left: 2%;
+     }
+    </style>
+</head>
+<body>
+    <a href="../chessboard/index.html" class="lnk">CHESSBOARD</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="../fb css/index.html" class="lnk">FACEBOOK</a>
+<form action="">
+    <label for="name">Name</label> <br> <input type="text" id="name" name="name"> <br>
+    <label for="mail">Email</label> <br> <input type="email" id="mail" name="mail"> <br>
+    <label for="pw">Password</label> <br> <input type="password" id="pw" name="pw"> <br>
+    <label for="no">Number</label> <br> <input type="number" id="no" name="no"> <br>
+    <label for="msg">Message</label> <br><br><br> <input type="text" id="msg" name="msg"> <br> 
+    <button id="submit">SUBMIT</button> <button id="cancel">CANCEL</button>
+</form>
+</body>
+</html>
